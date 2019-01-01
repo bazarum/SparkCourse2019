@@ -1,0 +1,307 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\n\nMachine Learning\n---",
+      "user": "anonymous",
+      "dateUpdated": "Mar 2, 2017 6:12:38 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eMachine Learning\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1488431535062_770063642",
+      "id": "20170302-061215_1665831098",
+      "dateCreated": "Mar 2, 2017 6:12:15 AM",
+      "dateStarted": "Mar 2, 2017 6:12:38 AM",
+      "dateFinished": "Mar 2, 2017 6:12:39 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\nIntroduction\n---\n\n**General Concepts** \n\n\n![alternate text](https://www.safaribooksonline.com/library/view/big-data-analytics/9781484209646/images/9781484209653_Fig08-10.jpg)\n\n\nMLlib Overview\n---\n\n* MLlib extends Spark for machine learning and statistical analysis. \n* It provides a higher-level API than the Spark core API for machine learning and statistical analysis. \n* It comes prepackaged with commonly used machine learning algorithms used for a variety of machine learning tasks. \n* It also includes statistical utilities for different statistical analysis.\n* MLlib integrates with other Spark libraries such as Spark Streaming and Spark SQL\n\n**What includes Spark MLib**\n\n**Regression and Classification**\n\n    Linear regression\n    Logistic regression\n    Support Vector Machine\n    Naïve Bayes\n    Decision tree\n    Random forest\n    Gradient-boosted trees\n    Isotonic regression\n\n**Clustering**\n\n    K-means\n    Streaming k-means\n    Gaussian mixture\n    Power iteration clustering (PIC)\n    Latent Dirichlet allocation (LDA)\n\n**Dimensionality Reduction**\n\n    Principal component analysis (PCA)\n    Singular value decomposition (SVD)\n\n**Feature Extraction and Transformation**\n\n    TF-IDF\n    Word2Vec\n    Standard Scaler\n    Normalizer\n    Chi-Squared feature selection\n    Elementwise product\n\n**Frequent pattern mining**\n\n    FP-growth\n    Association rules\n    PrefixSpan\n\n**Recommendation**\n\n    Collaborative filtering with Alternating Least Squares (ALS)\n    \n    \n",
+      "user": "anonymous",
+      "dateUpdated": "Mar 2, 2017 10:13:18 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eIntroduction\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003eGeneral Concepts\u003c/strong\u003e \u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.safaribooksonline.com/library/view/big-data-analytics/9781484209646/images/9781484209653_Fig08-10.jpg\" alt\u003d\"alternate text\" /\u003e\u003c/p\u003e\n\u003ch2\u003eMLlib Overview\u003c/h2\u003e\n\u003cul\u003e\n  \u003cli\u003eMLlib extends Spark for machine learning and statistical analysis.\u003c/li\u003e\n  \u003cli\u003eIt provides a higher-level API than the Spark core API for machine learning and statistical analysis.\u003c/li\u003e\n  \u003cli\u003eIt comes prepackaged with commonly used machine learning algorithms used for a variety of machine learning tasks.\u003c/li\u003e\n  \u003cli\u003eIt also includes statistical utilities for different statistical analysis.\u003c/li\u003e\n  \u003cli\u003eMLlib integrates with other Spark libraries such as Spark Streaming and Spark SQL\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cstrong\u003eWhat includes Spark MLib\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eRegression and Classification\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eLinear regression\nLogistic regression\nSupport Vector Machine\nNaïve Bayes\nDecision tree\nRandom forest\nGradient-boosted trees\nIsotonic regression\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eClustering\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eK-means\nStreaming k-means\nGaussian mixture\nPower iteration clustering (PIC)\nLatent Dirichlet allocation (LDA)\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eDimensionality Reduction\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003ePrincipal component analysis (PCA)\nSingular value decomposition (SVD)\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eFeature Extraction and Transformation\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eTF-IDF\nWord2Vec\nStandard Scaler\nNormalizer\nChi-Squared feature selection\nElementwise product\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eFrequent pattern mining\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eFP-growth\nAssociation rules\nPrefixSpan\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eRecommendation\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eCollaborative filtering with Alternating Least Squares (ALS)\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1488431558800_-1081501307",
+      "id": "20170302-061238_583929628",
+      "dateCreated": "Mar 2, 2017 6:12:38 AM",
+      "dateStarted": "Mar 2, 2017 6:24:01 AM",
+      "dateFinished": "Mar 2, 2017 6:24:01 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\nhttps://goo.gl/dH6Fde\n---",
+      "user": "anonymous",
+      "dateUpdated": "Mar 2, 2017 7:10:39 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003e\u003ca href\u003d\"https://goo.gl/dH6Fde\"\u003ehttps://goo.gl/dH6Fde\u003c/a\u003e\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1488435025333_139992131",
+      "id": "20170302-071025_1211809774",
+      "dateCreated": "Mar 2, 2017 7:10:25 AM",
+      "dateStarted": "Mar 2, 2017 7:10:39 AM",
+      "dateFinished": "Mar 2, 2017 7:10:40 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\nBasic Types \n---\n\n**Vector**\n\nThe Vector type represents an indexed collection of Double-type values with zero-based index of type Int. It is generally used for representing the features of an observation in a dataset. Conceptually, a Vector of length n represents an observation with n features. In other words, it represents an element in an n-dimensional space.\n\nIn order to use the Vector you need to import: \n~~~\nimport org.apache.spark.mllib.linalg.Vector\n~~~\n\n**DenseVector**\n\nAn instance of the DenseVector class stores a double-type value at each index position. It is backed by an array. A dense vector is generally used if a dataset does not have too many zero values. It can be created, as shown here.\n\n~~~\nimport org.apache.spark.mllib.linalg._\nval denseVector \u003d Vectors.dense(1.0, 0.0, 3.0)\n~~~\n\n**SparseVector**\n\nThe SparseVector class represents a sparse vector, which stores only non-zero values. It is an efficient data type for storing a large dataset with many zero values. An instance of the SparseVector class is backed by two arrays; one stores the indices for non-zero values and the other stores the non-zero values.\n\nA sparse vector can be created, as shown here.\n~~~\nimport org.apache.spark.mllib.linalg._\nval sparseVector \u003d Vectors.sparse(10, Array(3, 6), Array(100.0, 200.0))\n~~~\n\n**LabeledPoint**\n\nThe LabeledPoint type represents an observation in a labeled dataset. It contains both the label (dependent variable) and features (independent variables) of an observation. The label is stored as a Double-type value and the features are stored as a Vector type.\n\n~~~\nimport org.apache.spark.mllib.linalg.Vectors\nimport org.apache.spark.mllib.regression.LabeledPoint\n\nval positive \u003d LabeledPoint(1.0, Vectors.dense(10.0, 30.0, 20.0))\nval negative \u003d LabeledPoint(0.0, Vectors.sparse(3, Array(0, 2), Array(200.0, 300.0)))\n~~~\n\n**Rating**\n\nThe Rating type is used with recommendation algorithms. It represents a user’s rating for a product or item. A training dataset must be transformed to an RDD of Ratings before it can be used to train a recommendation model.\n\n~~~\nimport org.apache.spark.mllib.recommendation._\n\nval rating \u003d Rating(100, 10, 3.0)\n~~~\n",
+      "user": "anonymous",
+      "dateUpdated": "Mar 2, 2017 7:27:22 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eBasic Types\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003eVector\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eThe Vector type represents an indexed collection of Double-type values with zero-based index of type Int. It is generally used for representing the features of an observation in a dataset. Conceptually, a Vector of length n represents an observation with n features. In other words, it represents an element in an n-dimensional space.\u003c/p\u003e\n\u003cp\u003eIn order to use the Vector you need to import: \u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eimport org.apache.spark.mllib.linalg.Vector\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003cstrong\u003eDenseVector\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eAn instance of the DenseVector class stores a double-type value at each index position. It is backed by an array. A dense vector is generally used if a dataset does not have too many zero values. It can be created, as shown here.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eimport org.apache.spark.mllib.linalg._\nval denseVector \u003d Vectors.dense(1.0, 0.0, 3.0)\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003cstrong\u003eSparseVector\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eThe SparseVector class represents a sparse vector, which stores only non-zero values. It is an efficient data type for storing a large dataset with many zero values. An instance of the SparseVector class is backed by two arrays; one stores the indices for non-zero values and the other stores the non-zero values.\u003c/p\u003e\n\u003cp\u003eA sparse vector can be created, as shown here.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eimport org.apache.spark.mllib.linalg._\nval sparseVector \u003d Vectors.sparse(10, Array(3, 6), Array(100.0, 200.0))\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003cstrong\u003eLabeledPoint\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eThe LabeledPoint type represents an observation in a labeled dataset. It contains both the label (dependent variable) and features (independent variables) of an observation. The label is stored as a Double-type value and the features are stored as a Vector type.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eimport org.apache.spark.mllib.linalg.Vectors\nimport org.apache.spark.mllib.regression.LabeledPoint\n\nval positive \u003d LabeledPoint(1.0, Vectors.dense(10.0, 30.0, 20.0))\nval negative \u003d LabeledPoint(0.0, Vectors.sparse(3, Array(0, 2), Array(200.0, 300.0)))\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003cstrong\u003eRating\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eThe Rating type is used with recommendation algorithms. It represents a user’s rating for a product or item. A training dataset must be transformed to an RDD of Ratings before it can be used to train a recommendation model.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eimport org.apache.spark.mllib.recommendation._\n\nval rating \u003d Rating(100, 10, 3.0)\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1488432981394_1708902388",
+      "id": "20170302-063621_680229651",
+      "dateCreated": "Mar 2, 2017 6:36:21 AM",
+      "dateStarted": "Mar 2, 2017 7:27:22 AM",
+      "dateFinished": "Mar 2, 2017 7:27:23 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \n\nExample of predicting loan credit rick using random forest \u0026 Spark MLib\n---\n\nhttps://goo.gl/6ddNim\n---\n\n",
+      "user": "anonymous",
+      "dateUpdated": "Mar 2, 2017 6:31:25 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eExample of predicting loan credit rick using random forest \u0026amp; Spark MLib\u003c/h2\u003e\n\u003ch2\u003e\u003ca href\u003d\"https://goo.gl/6ddNim\"\u003ehttps://goo.gl/6ddNim\u003c/a\u003e\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1488431927443_1571442527",
+      "id": "20170302-061847_1168713659",
+      "dateCreated": "Mar 2, 2017 6:18:47 AM",
+      "dateStarted": "Mar 2, 2017 6:31:25 AM",
+      "dateFinished": "Mar 2, 2017 6:31:25 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\nSpark GraphX \u0026 Graphframes\n---\n\nhttps://goo.gl/NV7utl\n---\n",
+      "user": "anonymous",
+      "dateUpdated": "Mar 2, 2017 9:31:16 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eSpark GraphX \u0026amp; Graphframes\u003c/h2\u003e\n\u003ch2\u003e\u003ca href\u003d\"https://goo.gl/NV7utl\"\u003ehttps://goo.gl/NV7utl\u003c/a\u003e\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1488432660969_424166159",
+      "id": "20170302-063100_812923645",
+      "dateCreated": "Mar 2, 2017 6:31:00 AM",
+      "dateStarted": "Mar 2, 2017 9:31:16 AM",
+      "dateFinished": "Mar 2, 2017 9:31:16 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\nExamples of Graphframes\n---\n**scala**\n\nhttps://goo.gl/qDp2xj\n---\n\n**Python**\n\nhttps://goo.gl/OTUN24\n---\nhttps://goo.gl/ZcYb8O\n---\n\n",
+      "user": "anonymous",
+      "dateUpdated": "Mar 2, 2017 7:27:13 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eExamples of Graphframes\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003escala\u003c/strong\u003e\u003c/p\u003e\n\u003ch2\u003e\u003ca href\u003d\"https://goo.gl/qDp2xj\"\u003ehttps://goo.gl/qDp2xj\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003ePython\u003c/strong\u003e\u003c/p\u003e\n\u003ch2\u003e\u003ca href\u003d\"https://goo.gl/OTUN24\"\u003ehttps://goo.gl/OTUN24\u003c/a\u003e\u003c/h2\u003e\n\u003ch2\u003e\u003ca href\u003d\"https://goo.gl/ZcYb8O\"\u003ehttps://goo.gl/ZcYb8O\u003c/a\u003e\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1488435373464_-625736445",
+      "id": "20170302-071613_1420858957",
+      "dateCreated": "Mar 2, 2017 7:16:13 AM",
+      "dateStarted": "Mar 2, 2017 7:27:10 AM",
+      "dateFinished": "Mar 2, 2017 7:27:10 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n",
+      "user": "anonymous",
+      "dateUpdated": "Mar 2, 2017 7:17:49 AM",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1488435469105_455731416",
+      "id": "20170302-071749_1300708604",
+      "dateCreated": "Mar 2, 2017 7:17:49 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "/CursoAmadeus2017/MachineLearning",
+  "id": "2CC2V2CFJ",
+  "angularObjects": {
+    "2CC52E4S5:shared_process": [],
+    "2C9N1T5Y3:shared_process": [],
+    "2CAZ8JZD9:shared_process": [],
+    "2CCZDGC3H:shared_process": [],
+    "2C9S66NQK:shared_process": [],
+    "2C94SRCMC:shared_process": [],
+    "2CCCN7GZD:shared_process": [],
+    "2CCGRTB7B:shared_process": [],
+    "2CC8YMXCQ:shared_process": [],
+    "2CC6XAQM3:shared_process": [],
+    "2C9731R8U:shared_process": [],
+    "2CBZVGS5S:shared_process": [],
+    "2CBDXBFEU:shared_process": [],
+    "2CB3WM78Y:shared_process": [],
+    "2CCN2DPHQ:shared_process": [],
+    "2C9GE2AUU:shared_process": [],
+    "2CCV4F9FS:shared_process": [],
+    "2CCHNGUC9:shared_process": [],
+    "2C9RQJYPD:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}
