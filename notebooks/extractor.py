@@ -19,6 +19,7 @@ class StdOutListener(StreamListener):
 
 
         print(str(json.loads(data)['text'])) #.encode('UTF-8'))
+        print(str(json.loads(data)['text'])) #.encode('UTF-8'))
         return True
 
     def on_error(self, status):
